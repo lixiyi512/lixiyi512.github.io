@@ -1,0 +1,93 @@
+body{
+  font-family: GothamBook,"Open Sans";
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  font-family: "Open Sans";
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.footericon{
+  width:7%;
+  float:left;
+  padding-bottom: 5%;
+  transition:0.5s;
+  -webkit-transition:0.5s;
+  -moz-transition:0.5s;
+}
+
+.project{
+  border-bottom:1px dotted grey;
+  padding-top:4%;
+  padding-bottom:4%;
+}
+
+.work{
+  padding-bottom:3%;
+}
+
+
+.footericon:hover{
+  width:8%;
+}
+.resumeButton{
+  margin-top:30%;
+  margin-left:40%;
+  margin-bottom:10%;
+  color:#FFFFFF;
+  line-height:18px;
+  font-size:20px;
+  background-color:transparent;
+  adding-left:40px;
+  padding:25px 40px 25px 40px;
+  border-color:#FFFFFF;
+  font-family: GothamBook;
+}
+
+.resumeButton:hover{
+  background-color:rgba(255,255,255,0.75);
+  border-color:rgba(255,255,255,0.3);
+  color:#126792;
+
+  /*#126792*/
+}
+.aboutButton{
+  margin-top:10%;
+  margin-left:38%;
+  margin-bottom:32%;
+  color:#FFFFFF;
+  line-height:18px;
+  font-size:20px;
+  background-color:transparent;
+  padding:25px 40px 25px 40px;
+  border-color:#FFFFFF;
+}
+.aboutButton:hover{
+  background-color:rgba(255,255,255,0.5);
+  border-color:rgba(255,255,255,0.1);
+  color:#e98497;
+}
+
+.green:hover{
+  background-color:rgba(255,255,255,0.5);
+  border-color:rgba(255,255,255,0.1);
+  color:white;
+}
+
+.galleryimg{
+  width:33%;
+  padding:10px 5px 10px 5px;
+
+}
+
+/*.navbar {
+    background:rgb(238,249,250);
+    background: transparent\9;
+    background:rgba(238,249,250,0.9);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#e5EEF9FA,endColorstr=#e5EEF9FA);
+    zoom: 1;
+}*/

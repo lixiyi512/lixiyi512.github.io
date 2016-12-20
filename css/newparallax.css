@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+section.fixed-height {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+section.fixed-height {
+    height: 80%;
+    min-height: 600px;
+}
+
+.touch section.fixed-height {
+    background-attachment: scroll;
+}
+.homepage-panel {
+    background-size: cover;
+}
