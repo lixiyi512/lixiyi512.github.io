@@ -9,9 +9,18 @@ section.fixed-height {
     overflow: hidden;
     position: relative;
 }
+
+@media (min-width: 725px){
 section.fixed-height {
     height: 80%;
-    min-height: 600px;
+    min-height: 500px;
+}
+}
+@media (min-width: 300px){
+    section.fixed-height {
+    height: 30%;
+    min-height: 200px;
+}
 }
 
 .touch section.fixed-height {
@@ -20,3 +29,4 @@ section.fixed-height {
 .homepage-panel {
     background-size: cover;
 }
+

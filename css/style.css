@@ -22,8 +22,8 @@ body{
 
 .project{
   border-bottom:1px dotted grey;
-  padding-top:4%;
-  padding-bottom:4%;
+  padding-top:2.5%;
+  padding-bottom:2.5%;
 }
 
 .work{
@@ -79,9 +79,18 @@ body{
 }
 
 .galleryimg{
+  width:49.5%;
+  padding:10px 5px 10px 5px;
+}
+@media (min-width: 725px){
+    .galleryimg{ 
   width:33%;
   padding:10px 5px 10px 5px;
+}
+    }
 
+#horizontal-style li a:hover{
+    color:#03a99e;
 }
 
 /*.navbar {
