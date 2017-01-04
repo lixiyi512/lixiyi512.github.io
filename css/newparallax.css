@@ -18,7 +18,7 @@ section.fixed-height {
 }
 @media (min-width: 300px){
     section.fixed-height {
-    height: 30%;
+    height: 100%;
     min-height: 200px;
 }
 }

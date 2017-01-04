@@ -12,6 +12,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/newparallax.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/lightbox.min.css">
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -55,32 +56,46 @@
     <!-- panel1 -->
       <div class="container-fluid"> 
     <div class="row">
-    <section class="homepage-panel homepage-panel-f fixed-height" id="panel-2" style="background-image:url(images/blue1.JPG);">
+    <section class="homepage-panel homepage-panel-f fixed-height hidden-sm hidden-xs" id="panel-2" style="background-image:url(images/blue1.JPG);">
         <div class="row">
-            <div class="hidden-xs hidden-sm col-md-10 col-md-offset-2">
-               <p style="color:#FFFFFF;font-family:GothamBook,Arial; font-size:25px;line-height:30px;margin-top:30%;margin-bottom:5%;text-align:left;">
-                    Etiam sed ex eu nisl  amet mi,<br/>
-                    Nunc orci leo, sagittis nec molestie ut<br/>
-                    dapibus iaculis dolor,<br/>
-                    Nunc orci leo, sagittis nec molestie ut.
-                </p>
-                <p style="color:#FFFFFF;font-family:GothamBook,Arial; font-size:25px;line-height:30px;margin-bottom:5%;padding:0px;text-align:left;">
-                     sed ultrices velit sodales id.<br/>
-                     molestie ut, pulvinar quis felis.
-                 </p>
+            <div class="hidden-xs hidden-sm col-md-5 col-md-offset-2">
+               <p style="color:#FFFFFF;font-family:GothamBook,Arial;line-height:30px;margin-top:10%;text-align:left;">
+                   
+                   <span class="caption-navy">“</span></p>
+                   
+                  <p style="color:#FFFFFF;font-family:GothamBook,Arial;margin-left:15%; font-size:25px;text-align:left;"> 
+                   Learning gives creativity<br/>
+                     Creativity leads to thinking<br/>
+                    Thinking provides knowledge<br/>
+                      Knowledge makes you great.</p>
+                   
+                   
+                   <p style="color:#FFFFFF;font-family:GothamBook,Arial;line-height:30px;margin-top:8%;text-align:right;">
+                   
+                   <span class="caption-navy">”</span></p>
+                 <div class="textLineContainer"><h4 class="text-center textLine" style="color:#FFFFFF;font-family:GothamBook,Arial; font-size:25px;line-height:1.5;margin-bottom:10%;"> 
+                  Abdul Kalam
+                </h4>
+                     </div>
+                <p></p>
             </div>
           </div>
     </section>
+        <div class="row">
+           <div class="col-sm-12 col-xs-12 hidden-md hidden-lg">
+               <img src="images/blue1.JPG" alt="project" class="img-responsive"> 
+          </div>
+           </div>
     </div>
       </div>
     <!-- project detail -->
       <div class="container-fluid"> 
     <div class="row">
-      <div class="col-md-12 project" >
-        <div class="col-md-offset-1 col-md-3">
+      <div class="col-md-12 col-sm-12 col-xs-12 project" >
+        <div class="col-md-offset-1 col-md-3 col-sm-offset-1 col-sm-3 col-xs-offset-3 col-xs-6">
           <a href="http://picso.org:8889/~classinfovis2016fall/projects/group-02/home.html" target="_blank"><img src="images/VizBike Logo.jpg" class="img-responsive" style="width:80%"></a>
         </div>
-        <div class="col-md-offset-1 col-md-6">
+        <div class="col-md-offset-1 col-md-6 col-sm-ofset-1 col-sm-6 col-xs-12">
             <h4>Bike sharing system is cost-efficient and environment-friendly with incredibly convenience for the riders. One appealing feature is that it allows people to borrow a bike from one station and return it at another station. However, it could cause some rebalancing problems for the system. To assist the rebalancing issue, we developed <a href="http://picso.org:8889/~classinfovis2016fall/projects/group-02/home.html" target="_blank"><i>VisBike@Pittsburgh</i></a> to visualize the bike share patterns in Pittsburgh. By using diverse visual encodings, the system provides comprehensive observations on different rider behaviors and explorations on station activities.</h4>
             <h4><b>Techniques:</b></h4>
             <li>Data Process: Phython, SQLite, Excel</li>
@@ -92,11 +107,11 @@
     </div>
           
     <div class="row">
-      <div class="col-md-12 project">
-        <div class="col-md-offset-1 col-md-3">
-            <a href="https://youtu.be/RYt5w1pGSN8" target="_blank"><img src="images/PPT Logo.jpg" class="img-responsive" style="width:80%"></a>
+      <div class="col-md-12 col-sm-12 col-xs-12 project">
+        <div class="col-md-offset-1 col-md-3 col-sm-offset-1 col-sm-3 col-xs-offset-3 col-xs-6">
+            <a href="https://youtu.be/RYt5w1pGSN8" target="_blank"><img src="images/PPT Logo.jpg" class="img-responsive box-shadow" style="width:80%;border-radius:20px;"></a>
         </div>
-        <div class="col-md-offset-1 col-md-6">
+        <div class="col-md-offset-1 col-md-6 col-sm-offset-1 col-sm-6 col-xs-12">
             <h4><a href="https://youtu.be/RYt5w1pGSN8" target="_blank"><i>Pharmacogenomics Project Tracker</i></a> system leveraging an easy to use Google maps interface that is highly interactive – allowing users to identify and learn critical information about leading pharmacogenomics programs through filtering presentations schemes. Programs leaders on the website can log in and manage the data involving their own programs to allow the tool to be self-sustaining.</h4>
             <h4><b>Techniques:</b></h4>
             <li>Map Tracking Page: Google map API</li>
@@ -110,19 +125,51 @@
     
 
     <div class="row">
-      <div class="col-md-12 project" >
-        <div class="col-md-offset-1 col-md-3">
-          <img src="images/project.jpeg" class="img-responsive" style="width:80%">
+      <div class="col-md-12 col-sm-12 col-xs-12 project" >
+        <div class="col-md-offset-1 col-md-3 col-sm-offset-1 col-sm-3 col-xs-offset-3 col-xs-6">
+            <a href="https://github.com/lixiyi512/FriendMe" target="_blank"><img src="images/Friendme%20Logo.jpg" class="img-responsive" style="width:80%"></a>
         </div>
-        <div class="col-md-offset-1 col-md-6">
-        <h4>Successfully designed and developed a social network website which allows people to have their own
-            homepages and make friends. Using Java Servlet, JSP, and JDBC, as well as HTML, CSS, JavaScript to implement.</h4>
+        <div class="col-md-offset-1 col-md-6 col-sm-offset-1 col-sm-6 col-xs-12">
+            <h4><i>FriendMe!</i> is an online social networking website I built after I learned Java Servlet technology. The application allows user to register and login to <i>FriendMe</i> community and make friends through browsing other users' homepages and leaving messages to each other. You can find <a href="https://github.com/lixiyi512/FriendMe" target="_blank">source code</a> on my Github.</h4>
+            <h4><b>Techniques:</b></h4>
+            <li>Back-End: Java Servlet, JSP</li>
+            <li>Database: JDBC</li>
+            <li>System Infrastructure: HTML, CSS, JavaScript</li>
+            <a class="example-image-link" href="images/FriendMe1.jpg" data-lightbox="example-set" data-title="FriendMe Home Page"><img class="example-image img-rounded galleryimg" src="images/FriendMe1.jpg" alt="FriendMe home page" /></a>
+      <a class="example-image-link" href="images/FriendMe2.jpg" data-lightbox="example-set" data-title="User Homepage"><img class="example-image img-rounded galleryimg" src="images/FriendMe2.jpg" alt="User homepage" /></a>
+      <a class="example-image-link" href="images/FriendMe3.jpg" data-lightbox="example-set" data-title="User Information Setting Page"><img class="example-image img-rounded galleryimg" src="images/FriendMe3.jpg" alt="user setting page" /></a>
+            <a class="example-image-link" href="images/FriendMe4.jpg" data-lightbox="example-set" data-title="Search Result Page"><img class="example-image img-rounded galleryimg" src="images/FriendMe4.jpg" alt="Search Result page" /></a>
+      </div>
+    </div>
+    </div>
+          
+          <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12 project">
+        <div class="col-md-offset-1 col-md-3 col-sm-offset-1 col-sm-3 col-xs-offset-3 col-xs-6">
+            <a href="https://youtu.be/qI63HYN-SjY" target="_blank"><img src="images/HMS%20Logo.jpg" class="img-responsive box-shadow" style="width:80%;border-radius:20px;"></a>
+            
+        </div>
+        <div class="col-md-offset-1 col-md-6 col-sm-offset-1 col-sm-6 col-xs-12">
+            <h4>With the improved quality of life, the way people live changes as well as their consuming attitudes. Under this circumstance, I developed a hotel management system to help small hotel business better fit into the high-tech community. The system invloving three types of users (Administrator, Manager and Receptionist) with different levels of privileges. And the system contains three major modules:</h4>
+            <ol>
+            <li>Customer/employee/room information management</li>
+            <li>Room status management (two types based on the use case: available and not available)</li>
+            <li>Retrieve information based on specific requirement</li>
+                </ol>
+            
+            <h4><b>Techniques:</b></h4>
+            <li>Programming Language: C#</li>
+            <li>System Infrastructure: ASP.NET</li>
+            <li>Database: Microsoft SQL Server</li>  
+            <br/>
+            <a href="https://youtu.be/qI63HYN-SjY" target="_blank" ><h4>Demo</h4></a>
       </div>
     </div>
     </div>
           
           
     
+          
       </div>
     <!-- panel2 -->
       <div class="container-fluid"> 
@@ -147,44 +194,24 @@
     
 <div class="container-fluid"> 
     <div class="row">
-      <div class="col-md-12 project">
-        <div class="col-md-offset-1 col-md-3">
+      <div class="col-md-12 col-sm-12 col-xs-12 project">
+        <div class="col-md-offset-1 col-md-3 col-sm-offset-1 col-sm-3 col-xs-offset-3 col-xs-6">
           <a href="https://github.com/lixiyi512/Crystalize-Android-app-" target="_blank"><img src="images/Crystalize Logo.jpg" class="img-responsive" style="width:80%"></a>
         </div>
-        <div class="col-md-offset-1 col-md-6">
+        <div class="col-md-offset-1 col-md-6 col-sm-offset-1 col-sm-6 col-xs-12">
             <h4><i>Crystalize</i> is the first basic, functioning Android app I have ever built. It is a simple but useful quiz app which can be used for preparing for finals or learning facts:) In this particular app, I have prepared 5 nerdy questions to test user's nerdy level. You can also change the <a href="https://github.com/lixiyi512/Crystalize-Android-app-" target="_blank">source code</a> to customize the app in order to fit your need.</h4>
             <h4><b>Got familiar with:</b></h4>
             <li>Android layout building</li>
             <li>User input handling</li>
             <li>Graphics and animation manipulation</li>
             <br/>
-        <img src="images/Crystalize.gif" class="img-responsive" style="width:30%">    
+            <center><img src="images/Crystalize.gif" class="img-responsive" style="width:30%"> </center>   
       </div>
     </div>
     </div>
 
-    <div class="row">
-      <div class="col-md-12 project">
-        <div class="col-md-offset-1 col-md-3">
-          <img src="images/project.jpeg" style="width:80%">
-        </div>
-        <div class="col-md-offset-1 col-md-6">
-        <h4>Developed an interesting quiz app to test user’s nerdy level. Got familiar with Android layout building, user input handling, as well as graphics and animation manipulation. XML is used to define the UI and Java is used to write function.</h4>
-      </div>
-    </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-12" >
-        <div class="col-md-offset-1 col-md-3">
-          <img src="images/project.jpeg" style="width:80%">
-        </div>
-        <div class="col-md-offset-1 col-md-6">
-        <h4>Successfully designed and developed a social network website which allows people to have their own
-            homepages and make friends. Using Java Servlet, JSP, and JDBC, as well as HTML, CSS, JavaScript to implement.</h4>
-      </div>
-    </div>
-    </div>
+   
+          
       </div>
 
 <!-- footer -->
@@ -209,5 +236,31 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/javascript.js"></script>
+      <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script>
+        function galleryPadding(){
+            var paddingTop = $("#navbar").height();
+            $("#galleryPadding").css("padding-top", paddingTop + "px"); 
+        }
+        function galleryMDwidth(){
+            var wW = $(window).width();
+            if(wW >= 1100){
+                $(".galleryImg").css("width","27.5%")
+            }
+            
+        }
+        $(document).ready(function(){
+            galleryPadding();
+            galleryMDwidth();
+       
+        });
+       $(window).resize(function(){ 
+          galleryPadding();
+          galleryMDwidth();  
+       });
+             
+      
+        
+  </script>
   </body>
 </html>

@@ -1,6 +1,12 @@
 body{
   font-family: GothamBook,"Open Sans";
 }
+p{
+    line-height: 1.5;
+}
+h4{
+    line-height: 1.5;
+}
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
@@ -19,6 +25,36 @@ body{
   -webkit-transition:0.5s;
   -moz-transition:0.5s;
 }
+.caption-navy{
+    color:#ffffff;
+    font-size: 70px;
+    font-weight: bolder;
+}
+.textLine{
+    display: inline-block;
+  padding: 0 15px;
+  position: relative;
+}
+.textLine:before,
+.textLine:after{
+    background: #fff;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 400%;
+}
+.textLine:before{
+    right:100%;
+}
+.textLine:after{
+    left:100%;
+}
+.textLineContainer{
+    overflow: hidden;
+  text-align: center;
+}
 
 .project{
   border-bottom:1px dotted grey;
@@ -26,6 +62,11 @@ body{
   padding-bottom:2.5%;
 }
 
+.box-shadow{
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
 .work{
   padding-bottom:3%;
 }
