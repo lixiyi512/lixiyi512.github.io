@@ -188,4 +188,19 @@ h4, h3 {
     list-style-type: none;
     padding-left: 5px;
 }
-
+.hr {
+    height: 0;
+    font-size: 1em;
+    line-height: 0;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid #A7ADBA;
+    margin-bottom: 1.2em;
+    cursor: default;
+}
+.hr span{
+    background-color: #fff;
+    color: #A7ADBA;
+    padding-left: .5em;
+    padding-right: .5em;
+}
